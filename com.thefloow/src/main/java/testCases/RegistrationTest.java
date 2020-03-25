@@ -11,9 +11,9 @@ public class RegistrationTest extends BaseClass {
 	public void RegistrationSuccessTest() throws InterruptedException, ParseException {
 		System.out.println("Application Started...");
 
-		RegistrationPage RegPage = new RegistrationPage(driver);
+		RegistrationPage regPage = new RegistrationPage(driver);
 
-		RegPage.registrationSuccess();
+		regPage.registrationSuccess();
 	}
 
 }
